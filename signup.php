@@ -8,8 +8,8 @@
 <li><a href="#Plant">Start a Project</a></li>
 <li><a href="#Grow">Fund a Project</a></li>
 
-<li style="float:right"><a class="active" href="signup.html">Sign Up</a></li>
-<li style="float:right"><a href="signin.html">Log In</a></li>
+<li style="float:right"><a class="active" href="signup.php">Sign Up</a></li>
+<li style="float:right"><a href="signin.php">Log In</a></li>
 
 </ul>
 </head>
@@ -17,7 +17,7 @@
 
 <h2>Signup Form</h2>
 
-<form action="signup.php" style="border:1px solid #ccc">
+<form action="signupsend.php" style="border:1px solid #ccc">
   <div class="container">
     <label><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="username" required>
@@ -31,9 +31,9 @@
     <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
 
     <div class="clearfix">
-      <button type="button" class="cancelbtn">Cancel</button>
       <button type="submit" class="signupbtn">Sign Up</button>
     </div>
+
   </div>
 </form>
 

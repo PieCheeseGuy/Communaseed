@@ -10,7 +10,7 @@
      <li><a href="#Grow">Fund a Project</a></li>
 
      <li style="float:right"><a href="signup.php">Sign Up</a></li>
-     <li style="float:right"><a  class="active" href="signin.html">Log In</a></li>
+     <li style="float:right"><a  class="active" href="signin.php">Log In</a></li>
 
      </ul>
 </head>
